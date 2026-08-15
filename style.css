@@ -6,7 +6,8 @@ header {
     padding: 20px;
     position: sticky;
     height: 100px;
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -96,7 +97,7 @@ p {
 
   
 div.Menu img{
-    max-width:1200px ;
+    max-width: 100% ;
     
 }
 
@@ -129,12 +130,12 @@ div.Menu img{
     }
 
     .story-container {
-    width: 900px; 
+    max-width: 100%;
     margin: 0 auto;
 }
 
     .story-container2 {
-    width: 1000px; 
+    width: 900px; 
     margin: 0 auto;
 }
 
