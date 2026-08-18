@@ -1,13 +1,16 @@
 header {
     display: flex;
-    align-items: justify;
+    align-items: center;
     justify-content: space-between;
     background-color: white;
     padding: 20px;
     position: sticky;
-    height: 100px;
+    height: auto;
     max-width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -33,11 +36,9 @@ a:link.HL,a:visited.HL{
     text-decoration:none;
 }
 
-a:hover.HL,a:active.HL
-{
-    background-color: white(213, 213, 35);
+a.HL:hover, a.HL:active {
+    background-color: white; 
     color: black;
-    
 }
 
 /* jumbotron */
