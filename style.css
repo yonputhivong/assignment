@@ -81,7 +81,7 @@ p {
     }
 
     .vision img {
-        width: 50%;
+        width: auto;
         height: 350px;
         object-fit: cover;
         border-radius: 15px;
